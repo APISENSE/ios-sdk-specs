@@ -1,0 +1,29 @@
+{
+  "name": "apisense-swift-sdk",
+  "version": "0.1.2",
+  "summary": "Contribute to science by sharing your data",
+  "description": "The Apisense iOS SDK framework used for creating custom applications and collect data",
+  "homepage": "https://apisense.io/",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2016 Inria. All Rights Reserved."
+  },
+  "authors": "Inria.",
+  "platforms": {
+    "ios": "8.3"
+  },
+  "source": {
+    "http": "http://repo.apisense.com/artifactory/apisense/com/apisense/sdk/apisense-swift-sdk/0.1.2/apisense-swift-sdk-0.1.2.zip"
+  },
+  "vendored_frameworks": [
+    "Frameworks/Apisense.framework"
+  ],
+  "dependencies": {
+    "Alamofire": [
+      "~> 3.4"
+    ]
+  },
+  "frameworks": [
+  ],
+  "requires_arc": true
+}
